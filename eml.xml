@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="adeans.4.1" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+ <dataset> <title>Catalog of Rose Gall, Herb Gall, and Inquiline Gall Wasps (Hymenoptera: Cynipidae) of the United States, Canada, and Mexico</title>
+ <creator id="1614181928358"> <individualName><salutation>Prof.</salutation>
+<givenName>Andrew</givenName>
+<surName>Deans</surName>
+</individualName>
+<organizationName>Frost Entomological Museum</organizationName>
+<positionName>professor, director</positionName>
+<address><deliveryPoint>501 ASI Building</deliveryPoint>
+<deliveryPoint>Penn State - Entomology</deliveryPoint>
+<city>University Park</city>
+<administrativeArea>PA</administrativeArea>
+<postalCode>16802</postalCode>
+<country>USA</country>
+</address>
+<onlineUrl>https://orcid.org/0000-0002-2119-4663</onlineUrl>
+</creator>
+ <creator id="1614182000393"><individualName><givenName>Louis</givenName>
+<surName>Nastasi</surName>
+</individualName>
+<organizationName>Frost Entomological Museum</organizationName>
+<address><deliveryPoint>501 ASI Building</deliveryPoint>
+<deliveryPoint>Penn State - Entomology</deliveryPoint>
+<city>University Park</city>
+<administrativeArea>PA</administrativeArea>
+<postalCode>16802</postalCode>
+<country>USA</country>
+</address>
+<onlineUrl>https://orcid.org/0000-0001-7825-480X</onlineUrl>
+</creator>
+<associatedParty><references>1614181928358</references>
+<role>Originator</role>
+</associatedParty>
+<associatedParty><references>1614182000393</references>
+<role>Custodian/Steward</role>
+</associatedParty>
+<abstract><para>This Darwin Core Archive reports the species of rose gall wasps, herb gall wasps, and inquiline gall wasps from the United States, Canada, and Mexico. Current taxonomic data, distribution, host associations, and vernacular names are listed for each species. Gall descriptions are also given for each species of galler. For galling species without existing vernacular names, new vernacular names are proposed. This catalog provides important data for further examination of the group's taxonomy, distribution, and natural history.</para>
+</abstract>
+<keywordSet><keyword>gall</keyword>
+<keyword>biodiversity</keyword>
+<keyword>Aulacideini</keyword>
+<keyword>Ceroptresini</keyword>
+<keyword>Diastrophini</keyword>
+<keyword>Diplolepidini</keyword>
+<keyword>Phanacidini</keyword>
+<keyword>Synergini</keyword>
+<keyword>United States</keyword>
+<keyword>Canada</keyword>
+<keyword>Mexico</keyword>
+</keywordSet>
+<intellectualRights><para>This work is marked with CC0 1.0.
+<ulink url="http://creativecommons.org/publicdomain/zero/1.0">
+<citetitle>CC0 1.0 Universal</citetitle>
+</ulink>
+.
+</para>
+</intellectualRights>
+<coverage><geographicCoverage><geographicDescription>North America, including Mexico, United States of America, and Canada</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>-170.375</westBoundingCoordinate>
+<eastBoundingCoordinate>-50.125</eastBoundingCoordinate>
+<northBoundingCoordinate>88.375</northBoundingCoordinate>
+<southBoundingCoordinate>4.0</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><rangeOfDates><beginDate><calendarDate>1758</calendarDate>
+</beginDate>
+<endDate><calendarDate>2021-02-24</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<taxonomicCoverage><taxonomicClassification><taxonRankName>Family</taxonRankName>
+<taxonRankValue>Cynipidae</taxonRankValue>
+<commonName>gall wasps</commonName>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact><references>1614182000393</references>
+</contact>
+</dataset>
+ </eml:eml>
